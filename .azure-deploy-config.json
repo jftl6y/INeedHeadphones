@@ -1,0 +1,10 @@
+{
+  "platform": {
+    "kind": "app",
+    "apiVersion": "2022-03-01"
+  },
+  "properties": {
+    "runtimeStack": "node",
+    "runtimeVersion": "18.x"
+  }
+}
