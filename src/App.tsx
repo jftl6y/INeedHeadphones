@@ -43,8 +43,8 @@ function App() {
           <div className="bg-blue-800/50 p-6 rounded-lg mb-8">
             <h2 className="text-3xl font-bold mb-4 text-center">Why You Should Use Headphones</h2>
             <p className="text-lg">
-              Using speakerphone or playing audio out loud in public is inconsiderate to those around you.
-              Everyone deserves peaceful public spaces. Choose from our curated list of headphone options below!
+            <center>Using speakerphone or playing audio out loud in public is inconsiderate to those around you.
+              Everyone deserves peaceful public spaces. Choose from our curated list of headphone options below!</center>
             </p>
           </div>
         </div>
