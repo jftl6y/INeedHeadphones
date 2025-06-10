@@ -21,6 +21,7 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
+  
 
 env:
   AZURE_WEBAPP_NAME: iNeedHeadphones   # set this to your application's name
@@ -32,7 +33,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v4
 
@@ -57,7 +58,7 @@ jobs:
   deploy:
     permissions:
       contents: none
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build
     environment:
       name: 'Development'
