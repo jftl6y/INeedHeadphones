@@ -8,107 +8,136 @@ interface HeadphoneBrand {
 
 function App() {
   const expensiveBrands: HeadphoneBrand[] = [
-    { name: 'Beats', url: 'https://www.beatsbydre.com/' },
-    { name: 'Bose', url: 'https://www.bose.com/' },
-    { name: 'Apple AirPods Max', url: 'https://www.apple.com/airpods-max/' },
-    { name: 'Sennheiser', url: 'https://www.sennheiser.com/' },
-    { name: 'Bang & Olufsen', url: 'https://www.bang-olufsen.com/' }
+    { name: '💀 Beats', url: 'https://www.beatsbydre.com/' },
+    { name: '🔥 Bose', url: 'https://www.bose.com/' },
+    { name: '⚡ Apple AirPods Max', url: 'https://www.apple.com/airpods-max/' },
+    { name: '🎧 Sennheiser', url: 'https://www.sennheiser.com/' },
+    { name: '💎 Bang & Olufsen', url: 'https://www.bang-olufsen.com/' }
   ];
 
   const midRangeBrands: HeadphoneBrand[] = [
-    { name: 'Sony', url: 'https://www.sony.com/electronics/headphones' },
-    { name: 'Samsung', url: 'https://www.samsung.com/us/audio/headphones/' },
-    { name: 'JBL', url: 'https://www.jbl.com/headphones/' },
-    { name: 'Audio-Technica', url: 'https://www.audio-technica.com/' },
-    { name: 'Jabra', url: 'https://www.jabra.com/' }
+    { name: '⚔️ Sony', url: 'https://www.sony.com/electronics/headphones' },
+    { name: '🌟 Samsung', url: 'https://www.samsung.com/us/audio/headphones/' },
+    { name: '🚀 JBL', url: 'https://www.jbl.com/headphones/' },
+    { name: '🎵 Audio-Technica', url: 'https://www.audio-technica.com/' },
+    { name: '🔊 Jabra', url: 'https://www.jabra.com/' }
   ];
 
   const budgetBrands: HeadphoneBrand[] = [
-    { name: 'Skullcandy', url: 'https://www.skullcandy.com/' },
-    { name: 'Philips', url: 'https://www.philips.com/c-m-so/headphones' },
-    { name: 'Anker Soundcore', url: 'https://www.soundcore.com/' },
-    { name: 'JLab', url: 'https://www.jlab.com/' },
-    { name: 'House of Marley', url: 'https://www.thehouseofmarley.com/' }
+    { name: '💀 Skullcandy', url: 'https://www.skullcandy.com/' },
+    { name: '⚡ Philips', url: 'https://www.philips.com/c-m-so/headphones' },
+    { name: '🔋 Anker Soundcore', url: 'https://www.soundcore.com/' },
+    { name: '🎧 JLab', url: 'https://www.jlab.com/' },
+    { name: '🌿 House of Marley', url: 'https://www.thehouseofmarley.com/' }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 text-white">
-      <header className="py-12 text-center">
-        <h1 className="text-5xl font-bold mb-2">I Need Headphones</h1>
-        <p className="text-xl text-blue-200">Because nobody wants to hear your music, calls, or videos in public.</p>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-red-900 text-white relative overflow-hidden">
+      {/* Glitch effect overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-red-500/5 to-transparent animate-pulse"></div>
+      
+      <header className="py-16 text-center relative z-10">
+        <h1 className="text-6xl md:text-8xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500 glitch-text">
+          I NEED HEADPHONES
+        </h1>
+        <div className="text-xl md:text-2xl text-red-400 font-bold mb-2">
+          🔥 NOBODY WANTS TO HEAR YOUR TRASH 🔥
+        </div>
+        <p className="text-lg text-gray-300 italic">Stop being THAT person. Get some headphones. NOW.</p>
       </header>
 
-      <main className="container mx-auto px-4 pb-16">
+      <main className="container mx-auto px-4 pb-16 relative z-10">
         <div className="mb-16">
-          <div className="bg-blue-800/50 p-6 rounded-lg mb-8">
-            <h2 className="text-3xl font-bold mb-4 text-center">Why You Should Use Headphones</h2>
-            <p className="text-lg">
-            <center>Using speakerphone or playing audio out loud in public is inconsiderate to those around you.
-              Everyone deserves peaceful public spaces. Choose from our curated list of headphone options below!</center>
-            </p>
+          <div className="bg-black/70 border-2 border-red-500/50 p-8 rounded-lg mb-8 shadow-2xl backdrop-blur-sm border-glow">
+            <h2 className="text-4xl font-black mb-6 text-center text-red-400">⚠️ REALITY CHECK ⚠️</h2>
+            <div className="text-lg leading-relaxed space-y-4">
+              <p className="text-center text-gray-200">
+                <span className="text-red-400 font-bold">LISTEN UP:</span> Nobody gives a damn about your TikToks, your phone calls, or your music taste.
+              </p>
+              <p className="text-center text-gray-300">
+                Keep your audio to yourself and stop being a public menace. 
+                <br />
+                <span className="text-orange-400 font-bold">Choose your weapon below</span> 👇
+              </p>
+            </div>
           </div>
         </div>
 
         <section className="mb-16 fade-in">
-          <h2 className="text-4xl font-bold mb-8 text-center">I'm Bougie</h2>
-          <p className="text-xl mb-6 text-center text-blue-200">Premium headphones for the discerning ear</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-0">
+          <h2 className="text-5xl font-black mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 text-shadow-glow">
+            💰 IM BOUGIE AF 💰
+          </h2>
+          <p className="text-xl mb-8 text-center text-gray-300 font-bold">
+            Premium audio for people with <span className="text-yellow-400">TASTE</span> and <span className="text-green-400">MONEY</span>
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {expensiveBrands.map((brand, index) => (
               <a 
                 key={brand.name}
                 href={brand.url}
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="headphone-category bg-white/10 hover:bg-white/20 p-2 rounded-lg text-center transition-all transform hover:scale-105"
+                className="headphone-category bg-gradient-to-br from-yellow-600/20 to-orange-800/20 hover:from-yellow-500/30 hover:to-orange-700/30 border-2 border-yellow-500/30 hover:border-yellow-400 p-6 rounded-lg text-center transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20"
                 style={{ '--index': index } as CSSProperties}
               >
-                <h3 className="text-2xl font-semibold text-white">{brand.name}</h3>
+                <h3 className="text-2xl font-bold text-yellow-300 hover:text-yellow-100 transition-colors">{brand.name}</h3>
               </a>
             ))}
           </div>
         </section>
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.2s' }}>
-          <h2 className="text-4xl font-bold mb-8 text-center">I'm a Normie</h2>
-          <p className="text-xl mb-6 text-center text-blue-200">Reliable mid-range options that won't break the bank</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-0">
+          <h2 className="text-5xl font-black mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 text-shadow-glow">
+            🤖 IM BASIC AND THATS OK 🤖
+          </h2>
+          <p className="text-xl mb-8 text-center text-gray-300 font-bold">
+            Solid headphones for <span className="text-blue-400">NORMAL HUMANS</span> with reasonable expectations
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {midRangeBrands.map((brand, index) => (
               <a 
                 key={brand.name}
                 href={brand.url}
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="headphone-category bg-white/10 hover:bg-white/20 p-2 rounded-lg text-center transition-all transform hover:scale-105"
+                className="headphone-category bg-gradient-to-br from-blue-600/20 to-purple-800/20 hover:from-blue-500/30 hover:to-purple-700/30 border-2 border-blue-500/30 hover:border-blue-400 p-6 rounded-lg text-center transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
                 style={{ '--index': index } as CSSProperties}
               >
-                <h3 className="text-2xl font-semibold text-white">{brand.name}</h3>
+                <h3 className="text-2xl font-bold text-blue-300 hover:text-blue-100 transition-colors">{brand.name}</h3>
               </a>
             ))}
           </div>
         </section>
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.4s' }}>
-          <h2 className="text-4xl font-bold mb-8 text-center">I'm on a Budget</h2>
-          <p className="text-xl mb-6 text-center text-blue-200">Affordable options that still get the job done</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-0">
+          <h2 className="text-5xl font-black mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500 text-shadow-glow">
+            💸 IM BROKE BUT NOT BROKEN 💸
+          </h2>
+          <p className="text-xl mb-8 text-center text-gray-300 font-bold">
+            Budget beats for people who are <span className="text-green-400">SMART</span> with their money
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {budgetBrands.map((brand, index) => (
               <a 
                 key={brand.name}
                 href={brand.url}
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="headphone-category bg-white/10 hover:bg-white/20 p-2 rounded-lg text-center transition-all transform hover:scale-105"
+                className="headphone-category bg-gradient-to-br from-green-600/20 to-teal-800/20 hover:from-green-500/30 hover:to-teal-700/30 border-2 border-green-500/30 hover:border-green-400 p-6 rounded-lg text-center transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20"
                 style={{ '--index': index } as CSSProperties}
               >
-                <h3 className="text-2xl font-semibold text-white">{brand.name}</h3>
+                <h3 className="text-2xl font-bold text-green-300 hover:text-green-100 transition-colors">{brand.name}</h3>
               </a>
             ))}
           </div>
         </section>
       </main>
 
-      <footer className="bg-blue-900 py-8 text-center">
-        <p className="text-blue-300">© 2025 INeedHeadphones - Making public spaces peaceful again</p>
+      <footer className="bg-black/80 border-t border-red-500/30 py-8 text-center relative z-10">
+        <p className="text-gray-400 text-lg">© 2025 INeedHeadphones</p>
+        <p className="text-red-400 font-bold text-sm mt-2">STOP. BEING. ANNOYING. 🎧</p>
+        <p className="text-red-400 font-bold text-sm mt-2">Disclaimer: I am not making money with these links. I just want people to stop being narcisstic psychopaths who don't give a shit about other people.</p>
+        
       </footer>
     </div>
   );
