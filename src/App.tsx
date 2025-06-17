@@ -88,7 +88,7 @@ function App() {
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.2s' }}>
           <h2 className="text-5xl font-black mb-8 text-center text-blue-400 text-shadow-glow">
-            🤖 I'M BASIC AND THATS OK 🤖
+            🤖 I'M BASIC AND THAT'S OK 🤖
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
             Solid headphones for <span className="text-blue-400">NORMAL HUMANS</span> with reasonable expectations
