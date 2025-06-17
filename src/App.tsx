@@ -65,7 +65,7 @@ function App() {
 
         <section className="mb-16 fade-in">
           <h2 className="text-5xl font-black mb-8 text-center text-yellow-400 text-shadow-glow">
-            💰 IM BOUGIE AF 💰
+            💰 I'M BOUGIE AF 💰
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
             Premium audio for people with <span className="text-yellow-400">TASTE</span> and <span className="text-green-400">MONEY</span>
@@ -88,7 +88,7 @@ function App() {
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.2s' }}>
           <h2 className="text-5xl font-black mb-8 text-center text-blue-400 text-shadow-glow">
-            🤖 IM BASIC AND THATS OK 🤖
+            🤖 I'M BASIC AND THATS OK 🤖
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
             Solid headphones for <span className="text-blue-400">NORMAL HUMANS</span> with reasonable expectations
@@ -111,7 +111,7 @@ function App() {
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.4s' }}>
           <h2 className="text-5xl font-black mb-8 text-center text-green-400 text-shadow-glow">
-            💸 IM BROKE BUT NOT BROKEN 💸
+            💸 I'M BROKE BUT NOT BROKEN 💸
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
             Budget beats for people who are <span className="text-green-400">SMART</span> with their money
