@@ -64,7 +64,7 @@ function App() {
         </div>
 
         <section className="mb-16 fade-in">
-          <h2 className="text-5xl font-black mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 text-shadow-glow">
+          <h2 className="text-5xl font-black mb-8 text-center text-yellow-400 text-shadow-glow">
             💰 IM BOUGIE AF 💰
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
@@ -87,7 +87,7 @@ function App() {
         </section>
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.2s' }}>
-          <h2 className="text-5xl font-black mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 text-shadow-glow">
+          <h2 className="text-5xl font-black mb-8 text-center text-blue-400 text-shadow-glow">
             🤖 IM BASIC AND THATS OK 🤖
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
@@ -110,7 +110,7 @@ function App() {
         </section>
 
         <section className="mb-16 fade-in" style={{ animationDelay: '0.4s' }}>
-          <h2 className="text-5xl font-black mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500 text-shadow-glow">
+          <h2 className="text-5xl font-black mb-8 text-center text-green-400 text-shadow-glow">
             💸 IM BROKE BUT NOT BROKEN 💸
           </h2>
           <p className="text-xl mb-8 text-center text-gray-300 font-bold">
