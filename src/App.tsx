@@ -37,7 +37,7 @@ function App() {
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-red-500/5 to-transparent animate-pulse"></div>
       
       <header className="py-16 text-center relative z-10">
-        <h1 className="text-6xl md:text-8xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500 glitch-text">
+        <h1 className="text-6xl md:text-8xl font-black mb-4 bg-clip-text bg-gradient-to-r from-red-500 to-orange-500 glitch-text">
           I NEED HEADPHONES
         </h1>
         <div className="text-xl md:text-2xl text-red-400 font-bold mb-2">
